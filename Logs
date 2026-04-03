@@ -1,0 +1,1 @@
+print(f"[LOG] Step={step} Action={action} Reward={reward}")
