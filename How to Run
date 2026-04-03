@@ -1,0 +1,7 @@
+pip install -r requirements.txt
+python scripts/demo.py
+
+
+Sample Output
+Step 1 → Action: ESCALATE → Reward: +5
+Step 2 → Action: CLOSE → Reward: +10
