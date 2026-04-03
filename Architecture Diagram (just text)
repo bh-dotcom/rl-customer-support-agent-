@@ -1,1 +1,1 @@
-User → Environment → Agent → Reward → Evaluation
+User → RL Environment → Agent → Reward → Evaluation
