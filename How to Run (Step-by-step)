@@ -1,0 +1,12 @@
+git clone <your-repo>
+cd rl-customer-support-agent
+
+pip install -r requirements.txt
+python scripts/demo.py
+
+output eaxmple
+Step 1 → Action: ESCALATE → Reward: 5
+Step 2 → Action: REQUEST_INFO → Reward: 1
+Step 3 → Action: CLOSE → Reward: 10
+
+Evaluation: {'success_rate': 0.33, 'total_steps': 3}
