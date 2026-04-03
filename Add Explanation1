@@ -1,0 +1,18 @@
+reason = ""
+
+if state["complex"]:
+    reason = "Escalating because issue is complex"
+elif state["resolved"]:
+    reason = "Closing because already resolved"
+elif state["sentiment"] == "angry":
+    reason = "Responding quickly due to angry customer"
+else:
+    reason = "Requesting more info"
+
+print(f"""
+Ticket: {state['id']}
+Action: {action}
+Reason: {reason}
+Reward: {reward}
+-------------------
+""")
