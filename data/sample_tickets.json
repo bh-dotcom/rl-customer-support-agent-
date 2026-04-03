@@ -1,0 +1,5 @@
+[
+  {"id": 1, "resolved": false, "complex": true, "sentiment": "angry"},
+  {"id": 2, "resolved": false, "complex": false, "sentiment": "neutral"},
+  {"id": 3, "resolved": true, "complex": false, "sentiment": "happy"}
+]
